@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - Wellness Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="logo">
+                    <img src="images/Logo.png" alt="Wellness Blog Logo">
+                    <h1>Wellness Blog</h1>
+                </div>
+                
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="reviews.html" class="active">Reviews</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+
+                <button class="mobile-menu-button">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <div class="mobile-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="reviews.html" class="active">Reviews</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="reviews-hero">
+            <div class="container">
+                <h2>Reader Reviews</h2>
+                <p>See what our community has to say about their wellness journey</p>
+            </div>
+        </section>
+
+        <section class="reviews-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="all">All Reviews</button>
+                    <button class="filter-btn" data-category="wellness">Wellness Programs</button>
+                    <button class="filter-btn" data-category="nutrition">Nutrition Advice</button>
+                    <button class="filter-btn" data-category="mindfulness">Mindfulness</button>
+                    <button class="filter-btn" data-category="fitness">Fitness Tips</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews-grid">
+            <div class="container">
+                <div class="reviews-container">
+                    <!-- Review Card 1 -->
+                    <div class="review-card" data-category="wellness">
+                        <div class="review-header">
+                            <img src="images/review 1.webp" alt="Emily Thompson">
+                            <div class="reviewer-info">
+                                <h4>Emily Thompson</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h5>Life-Changing Wellness Program</h5>
+                        <p>The wellness program completely transformed my approach to health. The practical tips and daily routines were easy to follow and showed real results.</p>
+                        <span class="review-date">March 15, 2025</span>
+                    </div>
+
+                    <!-- Review Card 2 -->
+                    <div class="review-card" data-category="nutrition">
+                        <div class="review-header">
+                            <img src="images/review 2.jpg" alt="David Chen">
+                            <div class="reviewer-info">
+                                <h4>David Chen</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h5>Excellent Nutrition Guidance</h5>
+                        <p>The nutrition advice provided here is both practical and scientific. I've learned so much about balanced eating and have seen significant improvements in my energy levels.</p>
+                        <span class="review-date">March 10, 2025</span>
+                    </div>
+
+                    <!-- Review Card 3 -->
+                    <div class="review-card" data-category="mindfulness">
+                        <div class="review-header">
+                            <img src="images/review 4.jpg" alt="Maria Garcia">
+                            <div class="reviewer-info">
+                                <h4>Maria Garcia</h4>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h5>Helpful Mindfulness Resources</h5>
+                        <p>The mindfulness techniques shared have helped me manage stress better. The guided practices are perfect for beginners.</p>
+                        <span class="review-date">March 5, 2025</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Wellness Blog</h4>
+                    <p>Your trusted source for health and wellness information.</p>
+                </div>
+                <div class="footer-section">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h5>Follow Us</h5>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h5>Newsletter</h5>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Wellness Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
